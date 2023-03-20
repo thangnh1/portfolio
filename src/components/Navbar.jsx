@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { styles } from "../style";
+import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
 
@@ -22,9 +22,9 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="text-white text-[18px] font-bold cursor-pointer">
+          <p className="text-white text-[18px] font-bold flex cursor-pointer">
             Bee Nguyen &nbsp;
-            <span className="sm:block hidden">Data Engineer</span>
+            <span className="sm:block hidden">|&nbsp; Data Engineer</span>
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
@@ -52,7 +52,7 @@ const Navbar = () => {
               !toggle ? "hidden" : "flex"
             } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
-            <ul className="list-none flex justify-end items-start flex-col gap-4">
+            <ul className="list-none flex justify-end items-start flex-1 flex-col gap-4">
               {navLinks.map((link) => (
                 <li
                   key={link.id}
