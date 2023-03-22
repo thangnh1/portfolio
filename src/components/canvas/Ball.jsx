@@ -8,7 +8,6 @@ import {
   useTexture,
 } from "@react-three/drei";
 import CanvasLoader from "../Loader";
-import { SectionWrapper } from "../../hoc";
 
 const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl]);
@@ -37,12 +36,12 @@ const Ball = (props) => {
 
 const BallCanvas = ({ icon }) => {
   return (
-    <Canvas frameloop="demand" gl={{ preserveDrawingBuffer: true }}>
+    <Canvas frameLoop="demand" gl={{ preserveDrawingBuffer: true }}>
       <Suspense fallback={<CanvasLoader></CanvasLoader>}>
         <OrbitControls enableZoom={false} />
         <Ball imgUrl={icon}></Ball>
       </Suspense>
-      <Preload all />
+      <Preload all></Preload>
     </Canvas>
   );
 };

@@ -5,24 +5,23 @@ import {
   web,
   javascript,
   typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
+  python,
+  bash,
+  linux,
+  tensorflow,
+  mysql,
   nodejs,
   mongodb,
-  git,
-  figma,
+  github,
+  gg,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  fpt,
+  akb,
+  techvify,
+  pests,
+  tiki,
+  bash_,
+  bres,
 } from "../assets";
 
 export const navLinks = [
@@ -65,12 +64,8 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
+    name: "Python",
+    icon: python,
   },
   {
     name: "JavaScript",
@@ -81,36 +76,36 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "Bash Script",
+    icon: bash,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Linux OS",
+    icon: linux,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Tensorflow",
+    icon: tensorflow,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "MySQL",
+    icon: mysql,
   },
   {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Google Cloud",
+    icon: gg,
   },
   {
-    name: "git",
-    icon: git,
+    name: "Github",
+    icon: github,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "Node JS",
+    icon: nodejs,
   },
   {
     name: "docker",
@@ -122,55 +117,48 @@ const experiences = [
   {
     title: "SAP ABAP Developer",
     company_name: "FPT Infomation System",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    icon: fpt,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Apr 2021 - Aug 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Learn business modules SD, MM, WM to understand the workflow in the modules, helping to use the tables in the SAP ERP system correctly.",
+      "Customize the system according to customer requirements so that customers can use filters to search for the right data from the system interface, increasing consistency in the customer system.",
+      "Generate RTF templates to export data based on customer filters, saving report generation time.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "NodeJS Developer",
+    company_name: "Techvify",
+    icon: techvify,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Sep 2021 - Dec 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Join a training project on NestJS Framework, TypeScript and mySQL to better understand the technology used, improve technical skills, communication skills and teamwork skills.",
+      "Participate in the development of internal products of the company so that members of the company can better use the system, bring about effective administration as well as interaction between people.",
     ],
   },
+  {
+    title: "NodeJS Developer",
+    company_name: "AKB Software",
+    icon: akb,
+    iconBg: "#E6DEDD",
+    date: "Mar 2022 - Jun 2022",
+    points: [
+      "Join a training project on ExpressJS Framework, JavaScript and MongoDB to better understand the technology used, improve technical skills, communication skills and teamwork skills.",
+      "Our team together built a website called ThansohocAKB with the purpose bring users closer to Numerology, I myself built the function of login, user verification and refresh token to reduce virtual users for the application.",
+    ],
+  },
+  // {
+  //   title: "NodeJS Developer",
+  //   company_name: "AKB Software",
+  //   icon: akb,
+  //   iconBg: "#383E56",
+  //   date: "Mar 2022 - Jun 2022",
+  //   points: [
+  //     "Join a training project on ExpressJS Framework, JavaScript and MongoDB to better understand the technology used, improve technical skills, communication skills and teamwork skills.",
+  //     "Our team together built a website called ThansohocAKB with the purpose bring users closer to Numerology, I myself built the function of login, user verification and refresh token to reduce virtual users for the application.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
@@ -193,77 +181,126 @@ const testimonials = [
   {
     testimonial:
       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+    name: "Phan Quoc Dai",
+    designation: "PO",
+    company: "YODY",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Pests Classification",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to identify pests and diseases based on photos use VGG16, Resnet50, Inception v3.",
     tags: [
       {
-        name: "react",
+        name: "deeplearning",
         color: "blue-text-gradient",
+      },
+      {
+        name: "cnn",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tensorflow",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "vgg16",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "resnet50",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "inceptionv3",
+        color: "green-text-gradient",
+      },
+      {
+        name: "flask",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pests,
+    source_code_link: "https://github.com/thangnh1/PestClassification/",
+  },
+  {
+    name: "Crawl Product of Tiki",
+    description:
+      "Crawl all product on Tiki and insert to MongoDB, product statistics by category, download all images by product.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "crawler",
+        color: "green-text-gradient",
       },
       {
         name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "beautifulsoup4",
+        color: "orange-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: tiki,
+    source_code_link: "https://github.com/thangnh1/Crawl_Tiki/",
   },
   {
-    name: "Job IT",
+    name: "Analysis Text File",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Exploratory Data Analysis (EDA) Text file in Linux server non-Python used Bash Script Command.",
     tags: [
       {
-        name: "react",
+        name: "linux",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
+        name: "bashscript",
         color: "pink-text-gradient",
       },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "exporatorydataanalysis",
+        color: "orange-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: bash_,
+    source_code_link: "https://github.com/thangnh1/Analysis_with_Bash",
   },
+  // {
+  //   name: "Bee Restaurant",
+  //   description:
+  //     "Bee Restaurant management web-based platform built with PHP Core, mySQL, VnPay integration.",
+  //   tags: [
+  //     {
+  //       name: "PHPCore",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "mySQL",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "boostrap",
+  //       color: "orange-text-gradient",
+  //     },
+  //     {
+  //       name: "VNPay",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "PHPMailer",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: bres,
+  //   source_code_link: "https://github.com/thangnh1/restaurant/",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
