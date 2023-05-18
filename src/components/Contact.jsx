@@ -79,6 +79,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="Walter Bishop"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+              required
             ></input>
           </label>
           <label className="flex flex-col">
@@ -90,6 +91,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="walter@email.com"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+              required
             ></input>
           </label>
           <label className="flex flex-col">
@@ -101,6 +103,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="Text your message ... "
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+              required
             ></textarea>
           </label>
           <button
