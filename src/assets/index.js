@@ -29,6 +29,11 @@ import tiki from "./tiki.png";
 import bash_ from "./bash.png";
 import bres from "./bres.png";
 
+import fb from "./fb.png";
+import insta from "./insta.png";
+import tele from "./tele.png";
+import linkedin from "./linkedin.png";
+
 export {
   logo,
   backend,
@@ -57,4 +62,8 @@ export {
   tiki,
   bash_,
   bres,
+  fb,
+  insta,
+  tele,
+  linkedin,
 };
