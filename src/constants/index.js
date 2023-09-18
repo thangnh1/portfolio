@@ -115,15 +115,16 @@ const technologies = [
 
 const experiences = [
   {
-    title: "SAP ABAP Developer",
-    company_name: "FPT Infomation System",
-    icon: fpt,
+    title: "Data Engineer",
+    company_name: "INDA",
+    icon: techvify,
     iconBg: "#E6DEDD",
-    date: "Apr 2021 - Aug 2021",
+    date: "Apr 2022 - Sep 2023",
     points: [
-      "Learn business modules SD, MM, WM to understand the workflow in the modules, helping to use the tables in the SAP ERP system correctly.",
-      "Customize the system according to customer requirements so that customers can use filters to search for the right data from the system interface, increasing consistency in the customer system.",
-      "Generate RTF templates to export data based on customer filters, saving report generation time.",
+      "Install and config Oracle Database 12c, Oracle ODI, Oracle OAS.",
+      "Build the data warehouse project.",
+      "Build Data model for mini supermarket management according to 3NF standard.",
+      "Collaborate with partnership (MBBank, Gtel, ...) on projects related to digital transformation.",
     ],
   },
   {
@@ -133,32 +134,22 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Sep 2021 - Dec 2021",
     points: [
-      "Join a training project on NestJS Framework, TypeScript and mySQL to better understand the technology used, improve technical skills, communication skills and teamwork skills.",
-      "Participate in the development of internal products of the company so that members of the company can better use the system, bring about effective administration as well as interaction between people.",
+      "Developing internal software.",
+      "Setting up Swagger UI for API testing.",
+      "Developing basic functionalities for customer projects.",
     ],
   },
   {
-    title: "NodeJS Developer",
-    company_name: "AKB Software",
-    icon: akb,
+    title: "SAP ABAP Developer",
+    company_name: "FPT Infomation System",
+    icon: fpt,
     iconBg: "#E6DEDD",
-    date: "Mar 2022 - Jun 2022",
+    date: "Apr 2021 - Aug 2021",
     points: [
-      "Join a training project on ExpressJS Framework, JavaScript and MongoDB to better understand the technology used, improve technical skills, communication skills and teamwork skills.",
-      "Our team together built a website called ThansohocAKB with the purpose bring users closer to Numerology, I myself built the function of login, user verification and refresh token to reduce virtual users for the application.",
+      "Customize data and GUI using SQL in SAP ERP system.",
+      "Generate RTF templates to export report.",
     ],
   },
-  // {
-  //   title: "NodeJS Developer",
-  //   company_name: "AKB Software",
-  //   icon: akb,
-  //   iconBg: "#383E56",
-  //   date: "Mar 2022 - Jun 2022",
-  //   points: [
-  //     "Join a training project on ExpressJS Framework, JavaScript and MongoDB to better understand the technology used, improve technical skills, communication skills and teamwork skills.",
-  //     "Our team together built a website called ThansohocAKB with the purpose bring users closer to Numerology, I myself built the function of login, user verification and refresh token to reduce virtual users for the application.",
-  //   ],
-  // },
 ];
 
 const testimonials = [
