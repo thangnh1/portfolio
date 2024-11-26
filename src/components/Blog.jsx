@@ -15,8 +15,7 @@ const Blog = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        My blog aims to share knowledge about basic SQL, advanced SQL, Query
-        optimization and GCP services
+        My blog aims to share knowledge about Data Science, Software, and Education. I hope to provide valuable insights and resources to help you navigate the world of technology and innovation. Visit my blog to explore a wide range of topics, including data analysis, machine learning, and software development.
       </motion.p>
       <motion.div
         variants={fadeIn("right", "", 0.5, 1)}

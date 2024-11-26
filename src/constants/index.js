@@ -21,7 +21,6 @@ import {
   pests,
   tiki,
   bash_,
-  bres,
 } from "../assets";
 
 export const navLinks = [
@@ -49,11 +48,11 @@ const services = [
     icon: web,
   },
   {
-    title: "Database Developer",
+    title: " DE Coach",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Backend Engineer",
     icon: backend,
   },
   {
@@ -115,16 +114,39 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Backend Engineer",
+    company_name: "Nobisoft",
+    icon: akb,
+    iconBg: "#E6DEDD",
+    date: "Dec 2023 - Present",
+    points: [
+      "Serving as a Backend Engineer, responsible for developing and maintaining backend systems, ensuring performance and stability.",
+      "Designing and managing relational databases to optimize query speed and data reliability.",
+      "Deploying and managing applications on cloud platforms like AWS and GCP.",
+    ],
+  },
+  {
+    title: "Data Engineer Coach",
+    company_name: "UniGap",
+    icon: techvify,
+    iconBg: "#E6DEDD",
+    date: "Oct 2023 - Present",
+    points: [
+      "Working as a Software Engineer Coach, mentoring students and junior engineers in programming and software development.",
+      "Assisting in designing tailored learning paths, covering topics like big data, backend development, and cloud technologies.",
+      "Overseeing small-scale projects to ensure trainees grasp practical implementation techniques.",
+    ],
+  },
+  {
     title: "Data Engineer",
-    company_name: "INDA",
+    company_name: "MB Bank",
     icon: techvify,
     iconBg: "#E6DEDD",
     date: "Apr 2022 - Sep 2023",
     points: [
-      "Install and config Oracle Database 12c, Oracle ODI, Oracle OAS.",
-      "Build the data warehouse project.",
-      "Build Data model for mini supermarket management according to 3NF standard.",
-      "Collaborate with partnership (MBBank, Gtel, ...) on projects related to digital transformation.",
+      "Acted as a Data Engineer, focusing on building and operating large-scale data pipelines for digital banking services.",
+      "Designed data models to support business analytics and optimize system performance.",
+      "Managed and upgraded enterprise databases to ensure security and compliance with banking regulations.",
     ],
   },
   {
@@ -132,11 +154,11 @@ const experiences = [
     company_name: "Techvify",
     icon: techvify,
     iconBg: "#E6DEDD",
-    date: "Sep 2021 - Dec 2021",
+    date: "Sep 2021 - Nov 2021",
     points: [
-      "Developing internal software.",
-      "Setting up Swagger UI for API testing.",
-      "Developing basic functionalities for customer projects.",
+      "Held the position of Node.js Developer, developing backend applications using Node.js and popular frameworks like Express.js.",
+      "Contributed to optimizing API performance by improving server-side processing workflows.",
+      "Participated in Agile development processes, collaborating with team members to plan and deliver new features.",
     ],
   },
   {
@@ -146,8 +168,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Apr 2021 - Aug 2021",
     points: [
-      "Customize data and GUI using SQL in SAP ERP system.",
-      "Generate RTF templates to export report.",
+      "Worked as an ABAP Developer, responsible for developing and customizing SAP modules per client requirements.",
+      "Created dynamic reports within SAP systems, enhancing internal data management workflows.",
+      "Conducted testing and quality assurance for SAP modules before official deployment.",
     ],
   },
 ];
