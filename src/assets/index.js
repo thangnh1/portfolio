@@ -22,7 +22,9 @@ import typescript from "./tech/typescript.png";
 
 import fpt from "./company/fpt.png";
 import techvify from "./company/techvify.png";
-import akb from "./company/akb.png";
+import nobisoft from "./company/nobisoft.png";
+import unigap from "./company/unigap.png";
+import mb from "./company/mb.png";
 
 import pests from "./pests.png";
 import tiki from "./tiki.png";
@@ -56,12 +58,14 @@ export {
   mysql,
   typescript,
   fpt,
+  mb,
   techvify,
-  akb,
+  nobisoft,
   pests,
   tiki,
   bash_,
   bres,
+  unigap,
   fb,
   insta,
   tele,

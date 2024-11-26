@@ -16,11 +16,13 @@ import {
   gg,
   docker,
   fpt,
-  akb,
   techvify,
   pests,
   tiki,
   bash_,
+  nobisoft,
+  unigap,
+  mb,
 } from "../assets";
 
 export const navLinks = [
@@ -116,7 +118,7 @@ const experiences = [
   {
     title: "Backend Engineer",
     company_name: "Nobisoft",
-    icon: akb,
+    icon: nobisoft,
     iconBg: "#E6DEDD",
     date: "Dec 2023 - Present",
     points: [
@@ -128,7 +130,7 @@ const experiences = [
   {
     title: "Data Engineer Coach",
     company_name: "UniGap",
-    icon: techvify,
+    icon: unigap,
     iconBg: "#E6DEDD",
     date: "Oct 2023 - Present",
     points: [
@@ -140,7 +142,7 @@ const experiences = [
   {
     title: "Data Engineer",
     company_name: "MB Bank",
-    icon: techvify,
+    icon: mb,
     iconBg: "#E6DEDD",
     date: "Apr 2022 - Sep 2023",
     points: [
