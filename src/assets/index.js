@@ -36,6 +36,8 @@ import tiktok from "./tiktok.png";
 import tele from "./tele.png";
 import linkedin from "./linkedin.png";
 
+import blog from "./blog.png";
+
 export {
   logo,
   backend,
@@ -70,4 +72,5 @@ export {
   tiktok,
   tele,
   linkedin,
+  blog,
 };

@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { styles } from "../styles";
+import { blog } from "../assets";
 
 const Blog = () => {
   return (
@@ -25,7 +26,7 @@ const Blog = () => {
         variants={fadeIn("right", "", 0.5, 1)}
         className="xs:bottom-10 bottom-32 w-full flex justify-center items-center py-8"
       >
-        <img src="/src/assets/blog.png" alt="Blog" />
+        <img src={blog} alt="Blog" />
       </motion.div>
       <motion.div
         variants={fadeIn("right", "", 0.5, 1)}
