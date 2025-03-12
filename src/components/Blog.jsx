@@ -25,7 +25,7 @@ const Blog = () => {
         variants={fadeIn("right", "", 0.5, 1)}
         className="xs:bottom-10 bottom-32 w-full flex justify-center items-center py-8"
       >
-        <img src="src\assets\blog.png" alt="Blog" />
+        <img src="src/assets/blog.png" alt="Blog" />
       </motion.div>
       <motion.div
         variants={fadeIn("right", "", 0.5, 1)}
