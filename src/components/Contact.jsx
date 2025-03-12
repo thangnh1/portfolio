@@ -5,7 +5,7 @@ import emailjs from "@emailjs/browser";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-import { fb, insta, tele, linkedin } from "../assets";
+import { fb, tiktok, tele, linkedin } from "../assets";
 
 const Contact = () => {
   const formRef = useRef();
@@ -127,13 +127,13 @@ const Contact = () => {
             </div>
             <div
               onClick={() =>
-                window.open("https://www.instagram.com/bee.nht/", "_blank")
+                window.open("https://www.tiktok.com/@beebongbenh/", "_blank")
               }
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
-                src={insta}
-                alt="instagram"
+                src={tiktok}
+                alt="tiktok"
                 className="w-1/2 h-1/2 object-contain"
               ></img>
             </div>

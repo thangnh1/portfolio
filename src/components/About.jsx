@@ -38,12 +38,24 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        At Nobisoft, I specialize in leveraging Linux and cloud platforms to develop reliable backend infrastructures, while also sharing my expertise as a Software Engineering Coach at UniGap, helping the next generation of engineers bridge the gap between theory and real-world applications.
+        At Nobisoft, I specialize in leveraging Linux and cloud platforms to
+        develop reliable backend infrastructures, while also sharing my
+        expertise as a Software Engineering Coach at UniGap, helping the next
+        generation of engineers bridge the gap between theory and real-world
+        applications.
         <br className="sm:block hidden" />
-My academic journey in Data Science at Liverpool John Moores University and IIIT Bangalore has honed my ability to solve complex data challenges strategically. Certified as an IBM Data Warehouse Engineer, I excel in building efficient ETL pipelines, optimizing databases with MySQL, Oracle, and MongoDB, and implementing cloud-native solutions that drive business growth.
-<br className="sm:block hidden" />
-Beyond the technical, I thrive on solving problems, mentoring others, and exploring how data can empower organizations to innovate. I’m driven by a vision to contribute to impactful projects and make technology accessible, efficient, and transformative.
-        </motion.p>
+        My academic journey in Data Science at Liverpool John Moores University
+        and IIIT Bangalore has honed my ability to solve complex data challenges
+        strategically. Certified as an IBM Data Warehouse Engineer, I excel in
+        building efficient ETL pipelines, optimizing databases with MySQL,
+        Oracle, and MongoDB, and implementing cloud-native solutions that drive
+        business growth.
+        <br className="sm:block hidden" />
+        Beyond the technical, I thrive on solving problems, mentoring others,
+        and exploring how data can empower organizations to innovate. I’m driven
+        by a vision to contribute to impactful projects and make technology
+        accessible, efficient, and transformative.
+      </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard

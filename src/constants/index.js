@@ -19,7 +19,7 @@ import {
   techvify,
   pests,
   tiki,
-  bash_,
+  health,
   nobisoft,
   unigap,
   mb,
@@ -46,15 +46,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Data Engineer",
+    title: "Software Engineer",
     icon: web,
   },
   {
-    title: " DE Coach",
+    title: "DE Coach",
     icon: mobile,
   },
   {
-    title: "Backend Engineer",
+    title: "Data Engineer",
     icon: backend,
   },
   {
@@ -64,6 +64,8 @@ const services = [
 ];
 
 const technologies = [
+  //Python, Scala, SQL, GCP, AWS, Hadoop, Spark, Airflow, Kafka, Terraform, Docker, Linux, Jenkins, Oracle, Tableau, GitHub, Grafana
+
   {
     name: "Python",
     icon: python,
@@ -116,18 +118,6 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Backend Engineer",
-    company_name: "Nobisoft",
-    icon: nobisoft,
-    iconBg: "#E6DEDD",
-    date: "Dec 2023 - Present",
-    points: [
-      "Serving as a Backend Engineer, responsible for developing and maintaining backend systems, ensuring performance and stability.",
-      "Designing and managing relational databases to optimize query speed and data reliability.",
-      "Deploying and managing applications on cloud platforms like AWS and GCP.",
-    ],
-  },
-  {
     title: "Data Engineer Coach",
     company_name: "UniGap",
     icon: unigap,
@@ -137,6 +127,18 @@ const experiences = [
       "Working as a Software Engineer Coach, mentoring students and junior engineers in programming and software development.",
       "Assisting in designing tailored learning paths, covering topics like big data, backend development, and cloud technologies.",
       "Overseeing small-scale projects to ensure trainees grasp practical implementation techniques.",
+    ],
+  },
+  {
+    title: "Software Engineer",
+    company_name: "Nobisoft",
+    icon: nobisoft,
+    iconBg: "#E6DEDD",
+    date: "Dec 2023 - Mar 2025",
+    points: [
+      "Serving as a Backend Engineer, responsible for developing and maintaining backend systems, ensuring performance and stability.",
+      "Designing and managing relational databases to optimize query speed and data reliability.",
+      "Deploying and managing applications on cloud platforms like AWS and GCP.",
     ],
   },
   {
@@ -268,25 +270,39 @@ const projects = [
     source_code_link: "https://github.com/thangnh1/Crawl_Tiki/",
   },
   {
-    name: "Analysis Text File",
+    // name: "Healthcare Monitoring Data Pipeline",
+    name: "Healthcare Monitoring",
     description:
-      "Exploratory Data Analysis (EDA) Text file in Linux server non-Python used Bash Script Command.",
+      "This project proposes a reliable data pipeline to collect, store, and analyze real-time data streams from hospital IoT devices.",
     tags: [
       {
-        name: "linux",
+        name: "aws",
         color: "blue-text-gradient",
       },
       {
-        name: "bashscript",
+        name: "kafka",
         color: "pink-text-gradient",
       },
       {
-        name: "exporatorydataanalysis",
+        name: "spark",
         color: "orange-text-gradient",
       },
+      {
+        name: "hive",
+        color: "green-text-gradient",
+      },
+      {
+        name: "HBase",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "awssns",
+        color: "pink-text-gradient",
+      },
     ],
-    image: bash_,
-    source_code_link: "https://github.com/thangnh1/Analysis_with_Bash",
+    image: health,
+    source_code_link:
+      "https://github.com/thangnh1/Healthcare-Monitoring-Data-Pipeline",
   },
   // {
   //   name: "Bee Restaurant",

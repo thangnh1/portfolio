@@ -41,7 +41,10 @@ const FeedbackCard = ({
 
 const Feedbacks = () => {
   return (
-    <div className="mt-12 bg-black-100 rounded-[20px]">
+    <div
+      onClick={() => window.open("https://www.google.com", "_blank")}
+      className="mt-12 bg-black-100 rounded-[20px] cursor-pointer"
+    >
       <div
         className={`${styles.padding} bg-tertiary rounded-2xl min-h-[300px]`}
       >

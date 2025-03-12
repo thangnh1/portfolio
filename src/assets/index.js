@@ -28,11 +28,11 @@ import mb from "./company/mb.png";
 
 import pests from "./pests.png";
 import tiki from "./tiki.png";
-import bash_ from "./bash.png";
+import health from "./health-system.png";
 import bres from "./bres.png";
 
 import fb from "./fb.png";
-import insta from "./insta.png";
+import tiktok from "./tiktok.png";
 import tele from "./tele.png";
 import linkedin from "./linkedin.png";
 
@@ -63,11 +63,11 @@ export {
   nobisoft,
   pests,
   tiki,
-  bash_,
+  health,
   bres,
   unigap,
   fb,
-  insta,
+  tiktok,
   tele,
   linkedin,
 };
